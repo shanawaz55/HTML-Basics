@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 Semantic Tags</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+        line-height: 1.4;
+      }
+
+      #header {
+        margin-bottom: 15px;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      .text-center {
+        display: block;
+        text-align: center;
+      }
+
+      .card {
+        border: 1px solid #ddd;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="card">
+      <h1>My Website</h1>
+      <p>Just Another Website</p>
+    </header>
+
+    <!-- Main Content (left) -->
+    <main id="main">
+      <!-- Welcome Section -->
+      <section id="Welcome" class="card">
+        <h2>Welcome To our Website</h2>
+        <p>
+          HTML (Hypertext Markup Language) is the code that is used to structure
+          a web page and its content. For example, content could be structured
+          within a set of paragraphs, a list of bulleted points, or using images
+          and data tables. As the title suggests, this article will give you a
+          basic understanding of HTML and its functions.<br />
+          <a href="#" class="text-center">Click For More</a>
+        </p>
+      </section>
+
+      <!-- Blog Section -->
+      <section id="blog">
+        <h2>Form Our Blog</h2>
+        <!-- Article One -->
+        <article class="article">
+          <h3>Article One</h3>
+          <p>
+            The elements have to open and close correctly so that they are
+            clearly inside or outside one another. If they overlap as shown
+            above, then your web browser will try to make the best guess at what
+            you were trying to say, which can lead to unexpected results. So
+            don't do it!
+          </p>
+        </article>
+        <!-- Article Two -->
+        <article class="article">
+          <h3>Article Two</h3>
+          <p>
+            The elements have to open and close correctly so that they are
+            clearly inside or outside one another. If they overlap as shown
+            above, then your web browser will try to make the best guess at what
+            you were trying to say, which can lead to unexpected results. So
+            don't do it!
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <!-- sidebar (right) -->
+    <aside id="sidebar" class="card">
+      <h3>Navigation</h3>
+      <!-- Navigation  -->
+      <nav>
+        <ul id="main-nav">
+          <li><a href="03_meta_tags.html">Home</a></li>
+          <li><a href="04_typography.html">About</a></li>
+          <li><a href="05_links_images.html">Contact</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <h3>Contact Us</h3>
+      <ul>
+        <li><strong>Address:</strong>Rejent M markit sundergarh, odisha</li>
+        <li><strong>Phone:</strong>(8249)823-084</li>
+        <li><strong>Emaile:</strong>shanawazfarid2@gmail.com</li>
+      </ul>
+    </aside>
+
+    <div class="clr"></div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p class="text-center">Copyright &copy; My Website 2021</p>
+    </footer>
+  </body>
+</html>
